@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+
+        #name {
+            width: 100%;
+            height: 45vh;
+            color: white;
+            font-family: Cursive;
+            background: url('https://im1.dineout.co.in/images/uploads/restaurant/sharpen/7/n/y/p78446-1636784349618f58dd70a75.jpg?tr=tr:n-xlarge');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 300%;
+        }
+
+        nav {
+            background: whitesmoke;
+            padding: 15px;
+        }
+
+        a {
+            font-size: 160%;
+            padding: 5px 20px 5px 20px;
+            color: black;
+
+        }
+
+        .nav-selected {
+            color: purple;
+        }
+
+        .card {
+            width: 25vw;
+            height: 20vw;
+            display: inline-block;
+            margin-left: 6.25%;
+            box-shadow: 0 0 10px gray;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .item-image {
+            width: 100%;
+            height: 70%;
+        }
+
+        .title {
+            font-size: 150%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='name'>Food Point</div>
+    <nav>
+        <a href="index.html" class='nav-selected'>Starters</a>
+        <a href="maincourse.html">Main course</a>
+        <a href="desserts.html">Desserts</a>
+    </nav>
+
+
+    <div class='card'>
+        <img class='item-image'
+            src='https://www.inspiredtaste.net/wp-content/uploads/2018/10/Homemade-Vegetable-Soup-Recipe-2-1200.jpg'>
+        <p class='title'>Soup</p>
+        <p class='price'>₹50</p>
+    </div>
+    <div class='card'>
+        <img class='item-image'
+            src='https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/french-fries-recipe.jpg'>
+        <p class='title'>Fries</p>
+        <p class='price'>₹60</p>
+    </div>
+    <div class='card'>
+        <img class='item-image'
+            src='https://pickyeaterblog.com/wp-content/uploads/2022/05/mexican-street-corn-fries-recipe.jpg'>
+        <p class='title'>Corn fries</p>
+        <p class='price'>₹80</p>
+    </div>
+
+</body>
+
+
+</html>
